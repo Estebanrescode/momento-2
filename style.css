@@ -1,0 +1,58 @@
+ /* el body se refiere al cuerpo de la pagina*/
+ body {
+    /* tipo de letra  */
+    font-family: sans-serif;
+    /* sin margen en la pagina*/
+    margin: 0;
+}
+
+/* selecciona la etiqueta contenedor para empezar a darle medidas */
+.contenedor {
+    /*es un modelo de diseño CSS que permite crear diseños flexibles y responsivos.*/
+    display: flex; 
+    /*Controla el desbordamiento de elementos*/
+    flex-wrap: wrap; 
+    /* alinea elemento en el eje principal */
+    justify-content: space-around; 
+    /* se utiliza para agregar espacio entre el contenido y los bordes de un elemento */
+    padding: 20px;
+}
+/* se seleccion la clase tarjeta para empezar a darle diseño a la clase*/
+.tarjeta {
+    /* se utiliza para establecer en el ancho en la pagina */
+    width: 300px; 
+    /* se le da un margen de 10 pixeles a la clase tarjeta*/
+    margin: 10px; 
+    /* para darle un borde a la tarjeta tipo solido mas el color */
+    border: 1px solid #ccc; 
+    /* se le da una distancia de 20 pixeles de espacio entre los contenidos y bordes */
+    padding: 20px; 
+    /* le agregamos una curba en cada esquina de 5 pixeles */
+    border-radius: 5px; 
+    /* le agregamos un sombra a la tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+/* seleccionamos para empezar a darle estilo a las img */
+.tarjeta img {
+    /* le agregamos un ancho de imagen  */
+    width: 100%; 
+    /* un alto automatico deacuerdo al ancho */
+    height: auto; 
+    /* tipo bloque o cuadro la imagen */
+    display: block; 
+    /* le agregamos solo 2 bordes a la imagen */
+    border-radius: 5px 5px 0 0; 
+}
+/* seleccionamos para empezar a darle estilo al titulo */
+.tarjeta h3 {
+    /* le damos una margen superior a los titutlos  */
+    margin-top: 10px; 
+}
+
+/* seleccionamos para empezar a darle estilo a los parrafos */
+.tarjeta p {
+    /* le damos tamaño al parrafo*/
+    font-size: 0.9em; 
+    /* le damos un espacio entre lineas */
+    line-height: 1.5; 
+}
